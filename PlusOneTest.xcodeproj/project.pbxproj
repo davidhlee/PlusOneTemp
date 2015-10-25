@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5466B0BA1BDC984F001CF738 /* UIView+Features.m in Sources */ = {isa = PBXBuildFile; fileRef = 5466B0B91BDC984F001CF738 /* UIView+Features.m */; settings = {ASSET_TAGS = (); }; };
+		5466B0BD1BDCACF6001CF738 /* UILabel_Padding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5466B0BC1BDCACF6001CF738 /* UILabel_Padding.m */; settings = {ASSET_TAGS = (); }; };
+		548A58AA1BDD830100597A1A /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548A58A91BDD830100597A1A /* InitialViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548A58AE1BDD859500597A1A /* DHL_ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548A58AD1BDD859500597A1A /* DHL_ShowViewController.m */; settings = {ASSET_TAGS = (); }; };
+		548A58B21BDD85B200597A1A /* MenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548A58B11BDD85B200597A1A /* MenuVC.xib */; settings = {ASSET_TAGS = (); }; };
 		549C46B71BDBEA730036CDF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46B61BDBEA730036CDF5 /* main.m */; };
 		549C46BA1BDBEA730036CDF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46B91BDBEA730036CDF5 /* AppDelegate.m */; };
-		549C46BD1BDBEA730036CDF5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46BC1BDBEA730036CDF5 /* MasterViewController.m */; };
-		549C46C01BDBEA730036CDF5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46BF1BDBEA730036CDF5 /* DetailViewController.m */; };
-		549C46C31BDBEA730036CDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549C46C11BDBEA730036CDF5 /* Main.storyboard */; };
 		549C46C51BDBEA730036CDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549C46C41BDBEA730036CDF5 /* Assets.xcassets */; };
 		549C46C81BDBEA730036CDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549C46C61BDBEA730036CDF5 /* LaunchScreen.storyboard */; };
 		549C46D31BDBEA730036CDF5 /* PlusOneTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46D21BDBEA730036CDF5 /* PlusOneTestTests.m */; };
 		549C46DE1BDBEA730036CDF5 /* PlusOneTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46DD1BDBEA730036CDF5 /* PlusOneTestUITests.m */; };
+		549C46EF1BDBEC070036CDF5 /* DHL_ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46EE1BDBEC070036CDF5 /* DHL_ShowTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		549C46F21BDBEC390036CDF5 /* DHL_MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46F11BDBEC390036CDF5 /* DHL_MessageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		549C46F51BDBED2E0036CDF5 /* DHL_TextViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46F41BDBED2E0036CDF5 /* DHL_TextViewContainer.m */; settings = {ASSET_TAGS = (); }; };
+		549C46FA1BDBEF350036CDF5 /* DHL_ObjectsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46F91BDBEF350036CDF5 /* DHL_ObjectsManager.m */; settings = {ASSET_TAGS = (); }; };
+		549C46FD1BDBF0930036CDF5 /* DHL_MessageViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C46FC1BDBF0930036CDF5 /* DHL_MessageViewControllerCell.m */; settings = {ASSET_TAGS = (); }; };
+		549C47021BDC26070036CDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549C47001BDC26070036CDF5 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		54EFF5541BDCD1FE00F77B8D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EFF5531BDCD1FE00F77B8D /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5466B0B81BDC984F001CF738 /* UIView+Features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Features.h"; sourceTree = "<group>"; };
+		5466B0B91BDC984F001CF738 /* UIView+Features.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Features.m"; sourceTree = "<group>"; };
+		5466B0BB1BDCACF6001CF738 /* UILabel_Padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UILabel_Padding.h; path = Messaging/UILabel_Padding.h; sourceTree = "<group>"; };
+		5466B0BC1BDCACF6001CF738 /* UILabel_Padding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILabel_Padding.m; path = Messaging/UILabel_Padding.m; sourceTree = "<group>"; };
+		548A58A81BDD830100597A1A /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		548A58A91BDD830100597A1A /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		548A58AC1BDD859500597A1A /* DHL_ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHL_ShowViewController.h; path = Navigation/DHL_ShowViewController.h; sourceTree = "<group>"; };
+		548A58AD1BDD859500597A1A /* DHL_ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHL_ShowViewController.m; path = Navigation/DHL_ShowViewController.m; sourceTree = "<group>"; };
+		548A58B11BDD85B200597A1A /* MenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuVC.xib; path = Navigation/MenuVC.xib; sourceTree = "<group>"; };
 		549C46B21BDBEA730036CDF5 /* PlusOneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlusOneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549C46B61BDBEA730036CDF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		549C46B81BDBEA730036CDF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		549C46B91BDBEA730036CDF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		549C46BB1BDBEA730036CDF5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		549C46BC1BDBEA730036CDF5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		549C46BE1BDBEA730036CDF5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		549C46BF1BDBEA730036CDF5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		549C46C21BDBEA730036CDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		549C46C41BDBEA730036CDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		549C46C71BDBEA730036CDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		549C46C91BDBEA730036CDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +67,19 @@
 		549C46D91BDBEA730036CDF5 /* PlusOneTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlusOneTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		549C46DD1BDBEA730036CDF5 /* PlusOneTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlusOneTestUITests.m; sourceTree = "<group>"; };
 		549C46DF1BDBEA730036CDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549C46ED1BDBEC070036CDF5 /* DHL_ShowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHL_ShowTableViewController.h; path = Navigation/DHL_ShowTableViewController.h; sourceTree = "<group>"; };
+		549C46EE1BDBEC070036CDF5 /* DHL_ShowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHL_ShowTableViewController.m; path = Navigation/DHL_ShowTableViewController.m; sourceTree = "<group>"; };
+		549C46F01BDBEC390036CDF5 /* DHL_MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHL_MessageViewController.h; path = Messaging/DHL_MessageViewController.h; sourceTree = "<group>"; };
+		549C46F11BDBEC390036CDF5 /* DHL_MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHL_MessageViewController.m; path = Messaging/DHL_MessageViewController.m; sourceTree = "<group>"; };
+		549C46F31BDBED2E0036CDF5 /* DHL_TextViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHL_TextViewContainer.h; path = Messaging/DHL_TextViewContainer.h; sourceTree = "<group>"; };
+		549C46F41BDBED2E0036CDF5 /* DHL_TextViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHL_TextViewContainer.m; path = Messaging/DHL_TextViewContainer.m; sourceTree = "<group>"; };
+		549C46F81BDBEF350036CDF5 /* DHL_ObjectsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHL_ObjectsManager.h; path = Messaging/DHL_ObjectsManager.h; sourceTree = "<group>"; };
+		549C46F91BDBEF350036CDF5 /* DHL_ObjectsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHL_ObjectsManager.m; path = Messaging/DHL_ObjectsManager.m; sourceTree = "<group>"; };
+		549C46FB1BDBF0930036CDF5 /* DHL_MessageViewControllerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHL_MessageViewControllerCell.h; path = Messaging/DHL_MessageViewControllerCell.h; sourceTree = "<group>"; };
+		549C46FC1BDBF0930036CDF5 /* DHL_MessageViewControllerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHL_MessageViewControllerCell.m; path = Messaging/DHL_MessageViewControllerCell.m; sourceTree = "<group>"; };
+		549C47011BDC26070036CDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54EFF5531BDCD1FE00F77B8D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		54EFF5551BDCD23500F77B8D /* PlusOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlusOne-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EFF5541BDCD1FE00F77B8D /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +108,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5466B0B61BDC983E001CF738 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5466B0B71BDC984F001CF738 /* UIView+Features */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		5466B0B71BDC984F001CF738 /* UIView+Features */ = {
+			isa = PBXGroup;
+			children = (
+				5466B0B81BDC984F001CF738 /* UIView+Features.h */,
+				5466B0B91BDC984F001CF738 /* UIView+Features.m */,
+			);
+			path = "UIView+Features";
+			sourceTree = "<group>";
+		};
+		548A58AB1BDD83C400597A1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54EFF5531BDCD1FE00F77B8D /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		549C46A91BDBEA730036CDF5 = {
 			isa = PBXGroup;
 			children = (
 				549C46B41BDBEA730036CDF5 /* PlusOneTest */,
+				548A58AB1BDD83C400597A1A /* Frameworks */,
 				549C46D11BDBEA730036CDF5 /* PlusOneTestTests */,
 				549C46DC1BDBEA730036CDF5 /* PlusOneTestUITests */,
 				549C46B31BDBEA730036CDF5 /* Products */,
@@ -106,14 +159,12 @@
 			children = (
 				549C46B81BDBEA730036CDF5 /* AppDelegate.h */,
 				549C46B91BDBEA730036CDF5 /* AppDelegate.m */,
-				549C46BB1BDBEA730036CDF5 /* MasterViewController.h */,
-				549C46BC1BDBEA730036CDF5 /* MasterViewController.m */,
-				549C46BE1BDBEA730036CDF5 /* DetailViewController.h */,
-				549C46BF1BDBEA730036CDF5 /* DetailViewController.m */,
-				549C46C11BDBEA730036CDF5 /* Main.storyboard */,
-				549C46C41BDBEA730036CDF5 /* Assets.xcassets */,
-				549C46C61BDBEA730036CDF5 /* LaunchScreen.storyboard */,
-				549C46C91BDBEA730036CDF5 /* Info.plist */,
+				549C47001BDC26070036CDF5 /* Main.storyboard */,
+				548A58A81BDD830100597A1A /* InitialViewController.h */,
+				548A58A91BDD830100597A1A /* InitialViewController.m */,
+				549C46EB1BDBEBD50036CDF5 /* Navigation */,
+				549C46EC1BDBEBDC0036CDF5 /* Messaging */,
+				5466B0B61BDC983E001CF738 /* Utilities */,
 				549C46B51BDBEA730036CDF5 /* Supporting Files */,
 			);
 			path = PlusOneTest;
@@ -122,6 +173,10 @@
 		549C46B51BDBEA730036CDF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54EFF5551BDCD23500F77B8D /* PlusOne-Prefix.pch */,
+				549C46C41BDBEA730036CDF5 /* Assets.xcassets */,
+				549C46C61BDBEA730036CDF5 /* LaunchScreen.storyboard */,
+				549C46C91BDBEA730036CDF5 /* Info.plist */,
 				549C46B61BDBEA730036CDF5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +198,35 @@
 				549C46DF1BDBEA730036CDF5 /* Info.plist */,
 			);
 			path = PlusOneTestUITests;
+			sourceTree = "<group>";
+		};
+		549C46EB1BDBEBD50036CDF5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				549C46ED1BDBEC070036CDF5 /* DHL_ShowTableViewController.h */,
+				549C46EE1BDBEC070036CDF5 /* DHL_ShowTableViewController.m */,
+				548A58AC1BDD859500597A1A /* DHL_ShowViewController.h */,
+				548A58AD1BDD859500597A1A /* DHL_ShowViewController.m */,
+				548A58B11BDD85B200597A1A /* MenuVC.xib */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		549C46EC1BDBEBDC0036CDF5 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				549C46F81BDBEF350036CDF5 /* DHL_ObjectsManager.h */,
+				549C46F91BDBEF350036CDF5 /* DHL_ObjectsManager.m */,
+				549C46F01BDBEC390036CDF5 /* DHL_MessageViewController.h */,
+				549C46F11BDBEC390036CDF5 /* DHL_MessageViewController.m */,
+				549C46FB1BDBF0930036CDF5 /* DHL_MessageViewControllerCell.h */,
+				549C46FC1BDBF0930036CDF5 /* DHL_MessageViewControllerCell.m */,
+				549C46F31BDBED2E0036CDF5 /* DHL_TextViewContainer.h */,
+				549C46F41BDBED2E0036CDF5 /* DHL_TextViewContainer.m */,
+				5466B0BB1BDCACF6001CF738 /* UILabel_Padding.h */,
+				5466B0BC1BDCACF6001CF738 /* UILabel_Padding.m */,
+			);
+			name = Messaging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +334,8 @@
 			files = (
 				549C46C81BDBEA730036CDF5 /* LaunchScreen.storyboard in Resources */,
 				549C46C51BDBEA730036CDF5 /* Assets.xcassets in Resources */,
-				549C46C31BDBEA730036CDF5 /* Main.storyboard in Resources */,
+				549C47021BDC26070036CDF5 /* Main.storyboard in Resources */,
+				548A58B21BDD85B200597A1A /* MenuVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +360,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548A58AE1BDD859500597A1A /* DHL_ShowViewController.m in Sources */,
+				549C46EF1BDBEC070036CDF5 /* DHL_ShowTableViewController.m in Sources */,
+				549C46FD1BDBF0930036CDF5 /* DHL_MessageViewControllerCell.m in Sources */,
+				5466B0BD1BDCACF6001CF738 /* UILabel_Padding.m in Sources */,
 				549C46BA1BDBEA730036CDF5 /* AppDelegate.m in Sources */,
-				549C46BD1BDBEA730036CDF5 /* MasterViewController.m in Sources */,
+				549C46F51BDBED2E0036CDF5 /* DHL_TextViewContainer.m in Sources */,
+				548A58AA1BDD830100597A1A /* InitialViewController.m in Sources */,
+				549C46FA1BDBEF350036CDF5 /* DHL_ObjectsManager.m in Sources */,
 				549C46B71BDBEA730036CDF5 /* main.m in Sources */,
-				549C46C01BDBEA730036CDF5 /* DetailViewController.m in Sources */,
+				549C46F21BDBEC390036CDF5 /* DHL_MessageViewController.m in Sources */,
+				5466B0BA1BDC984F001CF738 /* UIView+Features.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +406,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		549C46C11BDBEA730036CDF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				549C46C21BDBEA730036CDF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		549C46C61BDBEA730036CDF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				549C46C71BDBEA730036CDF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		549C47001BDC26070036CDF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549C47011BDC26070036CDF5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -419,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PlusOneTest/PlusOne-Prefix.pch";
 				INFOPLIST_FILE = PlusOneTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.plusone.PlusOne.PlusOneTest;
@@ -430,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PlusOneTest/PlusOne-Prefix.pch";
 				INFOPLIST_FILE = PlusOneTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.plusone.PlusOne.PlusOneTest;
@@ -504,6 +598,7 @@
 				549C46E41BDBEA730036CDF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		549C46E51BDBEA730036CDF5 /* Build configuration list for PBXNativeTarget "PlusOneTestTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +607,7 @@
 				549C46E71BDBEA730036CDF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		549C46E81BDBEA730036CDF5 /* Build configuration list for PBXNativeTarget "PlusOneTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +616,7 @@
 				549C46EA1BDBEA730036CDF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
